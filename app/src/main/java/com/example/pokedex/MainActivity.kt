@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                     composable(
-                        "pokemon_list_details_screen/{dominantColor}/{pokemonName}",
+                        "pokemon_list_details_screen/{pokemonName}",
                         arguments = listOf(
                             navArgument("dominantColor") { type = NavType.IntType },
                             navArgument("pokemonName") { type = NavType.StringType }
